@@ -5,6 +5,18 @@
 }
 
 @media (max-width: 768px) {
+    .main-menu-items {
+        display: none;
+    }
+
+    .navbar .mobile-menu {
+        display: block;
+    }
+
+    .navbar .mobile-menu-toggle {
+        display: block;
+        padding: 10px;
+    }
 }
 
 @media (max-width: 576px) {
