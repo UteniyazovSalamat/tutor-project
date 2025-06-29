@@ -52,6 +52,30 @@
     .takeaways-cards {
         grid-template-columns: 1fr;
     }
+
+    .details-flex,
+    .details + .details .details-flex {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .details {
+        h2,
+        p {
+            text-align: center;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            width: 300px;
+            margin: 0 auto;
+        }
+    }
+
+    .details .heading-border {
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 768px) {
@@ -130,5 +154,9 @@
 
     .summary .container {
         padding: 0;
+    }
+
+    .details .btn {
+        width: 200px;
     }
 }
