@@ -168,4 +168,12 @@
     .stats .stats-text {
         font-size: 1rem;
     }
+
+    .newsletter h2 {
+        font-size: 1.5rem;
+    }
+
+    .newsletter p {
+        display: none;
+    }
 }

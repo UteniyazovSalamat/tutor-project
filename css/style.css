@@ -493,3 +493,43 @@ img {
     text-align: center;
     width: 200px;
 }
+
+/* Newsletter */
+.newsletter {
+    margin: 0 2rem;
+    text-align: center;
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    p {
+        max-width: 600px;
+    }
+
+    input[type='email'] {
+        margin: 1rem 0;
+        padding: 1rem 2rem;
+        border: 1px solid #ccc;
+        width: 100%;
+        border-radius: 32px;
+        max-width: 400px;
+
+        &:focus {
+            outline: 1px solid var(--primary-color);
+        }
+    }
+}
+
+.newsletter-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--light-color);
+    border: 1px solid #eee;
+    border-radius: 3px;
+    padding: 4rem 2rem;
+}
