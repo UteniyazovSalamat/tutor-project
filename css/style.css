@@ -298,3 +298,34 @@ img {
         margin: 1rem 0;
     }
 }
+
+/* Summary */
+.summary {
+    padding: 4rem 2rem 5rem;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.summary .section-lists {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.summary .list-header {
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.summary .list-item {
+    padding: 1.4rem 0;
+    border-bottom: 1px solid #f1f4f6;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}

@@ -39,6 +39,11 @@
     .chapter-cards {
         grid-template-columns: 1fr;
     }
+
+    .summary .list-item {
+        padding: 1.2rem 0;
+        text-align: justify;
+    }
 }
 
 @media (max-width: 768px) {
@@ -53,6 +58,10 @@
     .navbar .mobile-menu-toggle {
         display: block;
         padding: 10px;
+    }
+
+    .summary .list-header {
+        text-align: center;
     }
 }
 
@@ -77,5 +86,9 @@
     .topic h3 {
         margin: 0.3rem 0;
         text-align: center;
+    }
+
+    .summary .container {
+        padding: 0;
     }
 }
