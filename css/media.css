@@ -40,9 +40,17 @@
         grid-template-columns: 1fr;
     }
 
+    .summary {
+        padding: 3rem 2rem 3.5rem;
+    }
+
     .summary .list-item {
         padding: 1.2rem 0;
         text-align: justify;
+    }
+
+    .takeaways-cards {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -58,6 +66,14 @@
     .navbar .mobile-menu-toggle {
         display: block;
         padding: 10px;
+    }
+
+    .section {
+        margin: 3rem 0;
+    }
+
+    .chapter-cards {
+        padding: 1rem 0 2.5rem;
     }
 
     .summary .list-header {
@@ -86,6 +102,10 @@
 }
 
 @media (max-width: 576px) {
+    .section {
+        margin: 2rem 0;
+    }
+
     .hero {
         padding-right: 0.2rem;
         padding-left: 0.2rem;
