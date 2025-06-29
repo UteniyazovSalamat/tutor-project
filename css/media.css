@@ -54,7 +54,8 @@
     }
 
     .details-flex,
-    .details + .details .details-flex {
+    .details + .details .details-flex,
+    .stats .stats-flex {
         flex-direction: column;
         gap: 2rem;
     }
@@ -66,10 +67,10 @@
         }
 
         .btn {
-            display: flex;
-            justify-content: center;
-            width: 300px;
+            display: block;
             margin: 0 auto;
+            text-align: center;
+            width: 200px;
         }
     }
 
@@ -156,7 +157,15 @@
         padding: 0;
     }
 
-    .details .btn {
-        width: 200px;
+    .stats .stats-numbers {
+        flex-direction: column;
+    }
+
+    .stats .stats-numbers h3 {
+        font-size: 2.5rem;
+    }
+
+    .stats .stats-text {
+        font-size: 1rem;
     }
 }
