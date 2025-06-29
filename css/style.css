@@ -69,6 +69,10 @@ img {
     }
 }
 
+.section {
+    margin: 4rem 0;
+}
+
 /* Section Header */
 .section-header {
     max-width: 750px;
@@ -94,6 +98,19 @@ img {
     height: 4px;
     background-color: var(--primary-color);
     margin: 0 auto 2rem;
+}
+
+/* Card */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 1.75rem;
+    background-color: #fff;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 /* Navbar */
@@ -249,6 +266,7 @@ img {
 }
 
 .topic img {
+    border-radius: 5px;
     transition: transform 0.3s;
 }
 
@@ -260,4 +278,23 @@ img {
     margin: 0.5rem 0;
     font-size: 1rem;
     font-weight: 700;
+}
+
+/* Cha[ter Card */
+.chapter-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem 0 4rem;
+
+    img {
+        width: 130px;
+        margin-top: 1rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin: 1rem 0;
+    }
 }
