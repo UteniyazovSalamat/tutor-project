@@ -63,6 +63,26 @@
     .summary .list-header {
         text-align: center;
     }
+
+    .info-container {
+        flex-direction: column;
+    }
+
+    .info-content {
+        padding: 2rem;
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .info-left {
+        display: none;
+    }
 }
 
 @media (max-width: 576px) {
