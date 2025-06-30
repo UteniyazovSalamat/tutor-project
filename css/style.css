@@ -533,3 +533,84 @@ img {
     border-radius: 3px;
     padding: 4rem 2rem;
 }
+
+/* Social */
+.social {
+    margin-bottom: 0;
+    padding: 6rem 2rem;
+    background-color: var(--dark-color);
+    color: #fff;
+    font-size: 1.7rem;
+    text-align: center;
+
+    a {
+        color: #fff;
+    }
+
+    p {
+        margin-bottom: 2rem;
+    }
+}
+
+.social .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.social-icons .fa-facebook:hover {
+    color: #1877f2;
+}
+
+.social-icons .fa-twitter:hover {
+    color: #1da1f2;
+}
+
+.social-icons .fa-instagram:hover {
+    color: #e1306c;
+}
+
+.social-icons .fa-linkedin:hover {
+    color: #0077b5;
+}
+
+.social-icons .fa-youtube:hover {
+    color: #ff0000;
+}
+
+.social-icons .fa-pinterest:hover {
+    color: #e60023;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--dark-color);
+    color: #fff;
+    border-top: 1px solid #384653;
+    padding: 0.5rem 2rem;
+
+    a {
+        color: #fff;
+
+        &:hover {
+            color: var(--secondary-color);
+        }
+    }
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.footer-links {
+}

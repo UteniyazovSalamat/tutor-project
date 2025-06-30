@@ -124,6 +124,27 @@
     .info-left {
         display: none;
     }
+
+    .social {
+        margin-bottom: 0;
+        padding: 4rem 2rem;
+
+        i {
+            font-size: 2rem;
+        }
+    }
+
+    .social .social-icons {
+        flex-wrap: wrap;
+    }
+
+    .footer ul {
+        margin: 1.3rem 0;
+    }
+
+    .footer-flex {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 576px) {
@@ -175,5 +196,17 @@
 
     .newsletter p {
         display: none;
+    }
+
+    .social {
+        margin-bottom: 0;
+    }
+
+    .social p {
+        font-size: 1.4rem;
+    }
+
+    .footer p {
+        text-align: center;
     }
 }
