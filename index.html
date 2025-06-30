@@ -38,14 +38,22 @@
         <title>Welcome To Tutor</title>
     </head>
     <body>
-        <nav class="navbar">
+        <!-- Navbar -->
+        <nav
+            class="navbar"
+            role="navigation"
+            aria-label="Main navigation">
             <div class="navbar-flex container">
-                <img
-                    src="./images/logo.svg"
-                    alt="Tutor logo" />
+                <a
+                    href="/"
+                    aria-label="Logo Home Link">
+                    <img
+                        src="./images/logo.svg"
+                        alt="Tutor logo" />
+                </a>
                 <div class="main-menu-items">
                     <ul class="main-menu-list">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="#chapters">Chapters</a></li>
                         <li><a href="#summary">Summary</a></li>
                         <li><a href="#takeaways">Takeaways</a></li>
@@ -54,14 +62,16 @@
                         <li>
                             <a
                                 href="https://facebook.com"
-                                target="_blank">
+                                target="_blank"
+                                aria-label="Follow Us On Facebook">
                                 <i class="fa-brands fa-facebook"></i>
                             </a>
                         </li>
                         <li>
                             <a
                                 href="https://twitter.com"
-                                target="_blank">
+                                target="_blank"
+                                aria-label="Follow Us On Twitter">
                                 <i class="fa-brands fa-twitter"></i>
                             </a>
                         </li>
@@ -71,14 +81,22 @@
                 <!-- Mobile Menu -->
                 <div class="mobile-menu">
                     <!-- Hamburger button -->
-                    <div class="mobile-menu-toggle">
+                    <div
+                        class="mobile-menu-toggle"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="mobile-menu-items"
+                        aria-label="Open mobile menu"
+                        tabindex="0">
                         <i class="fas fa-bars fa-2x"></i>
                     </div>
 
                     <!-- Mobile Menu Items -->
-                    <div class="mobile-menu-items">
+                    <div
+                        class="mobile-menu-items"
+                        id="mobile-menu-items">
                         <ul class="mobile-menu-list">
-                            <li><a href="#">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li><a href="#chapters">Chapters</a></li>
                             <li><a href="#summary">Summary</a></li>
                             <li><a href="#takeaways">Takeaways</a></li>
@@ -86,15 +104,17 @@
                             <li><a href="./contact.html">Contact</a></li>
                             <li>
                                 <a
-                                    href="facebook.com"
-                                    target="_blank">
+                                    href="http://facebook.com"
+                                    target="_blank"
+                                    aria-label="Follow Us On Facebook">
                                     <i class="fa-brands fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="twitter.com"
-                                    target="_blank">
+                                    href="http://twitter.com"
+                                    target="_blank"
+                                    aria-label="Follow Us On Twitter">
                                     <i class="fa-brands fa-twitter"></i>
                                 </a>
                             </li>
@@ -489,20 +509,20 @@
                 <div class="stats-content">
                     <div class="stats-numbers">
                         <div>
-                            <h3>2000+</h3>
-                            <p>Happy Users</p>
+                            <h3 aria-labelledby="stats-happy-users">2000+</h3>
+                            <p id="stats-happy-users">Happy Users</p>
                         </div>
                         <div>
-                            <h3>358</h3>
-                            <p>Issues Solved</p>
+                            <h3 aria-labelledby="stats-issues-solved">358</h3>
+                            <p id="stats-issues-solved">Issues Solved</p>
                         </div>
                         <div>
-                            <h3>980</h3>
-                            <p>Good Reviews</p>
+                            <h3 aria-labelledby="stats-good-reviews">980</h3>
+                            <p id="stats-good-reviews">Good Reviews</p>
                         </div>
                         <div>
-                            <h3>216</h3>
-                            <p>Case Studies</p>
+                            <h3 aria-labelledby="stats-case-studies">216</h3>
+                            <p id="stats-case-studies">Case Studies</p>
                         </div>
                     </div>
 
@@ -548,12 +568,42 @@
             <div class="container">
                 <p>Follow us on social media for updates and news about our courses.</p>
                 <div class="social-icons">
-                    <a href="#"> <i class="fa-brands fa-facebook fa-2x"></i></a>
-                    <a href="#"> <i class="fa-brands fa-twitter fa-2x"></i></a>
-                    <a href="#"> <i class="fa-brands fa-instagram fa-2x"></i></a>
-                    <a href="#"> <i class="fa-brands fa-linkedin fa-2x"></i></a>
-                    <a href="#"> <i class="fa-brands fa-youtube fa-2x"></i></a>
-                    <a href="#"> <i class="fa-brands fa-pinterest fa-2x"></i></a>
+                    <a
+                        href="https://facebook.com"
+                        target="_blank"
+                        aria-label="Follow Us On Facebook"
+                        ><i class="fa-brands fa-facebook fa-2x"></i>
+                    </a>
+                    <a
+                        href="https://twitter.com"
+                        target="_blank"
+                        aria-label="Follow Us On Twitter"
+                        ><i class="fa-brands fa-twitter fa-2x"></i>
+                    </a>
+                    <a
+                        href="https://instagram.com"
+                        target="_blank"
+                        aria-label="Follow Us On Instagram"
+                        ><i class="fa-brands fa-instagram fa-2x"></i>
+                    </a>
+                    <a
+                        href="https://linkedin.com"
+                        target="_blank"
+                        aria-label="Follow Us On Linkedin"
+                        ><i class="fa-brands fa-linkedin fa-2x"></i>
+                    </a>
+                    <a
+                        href="https://youtube.com"
+                        target="_blank"
+                        aria-label="Follow Us On Youtube"
+                        ><i class="fa-brands fa-youtube fa-2x"></i>
+                    </a>
+                    <a
+                        href="https://pinterest.com"
+                        target="_blank"
+                        aria-label="Follow Us On Pinterest"
+                        ><i class="fa-brands fa-pinterest fa-2x"></i>
+                    </a>
                 </div>
             </div>
         </section>
@@ -562,7 +612,7 @@
         <footer class="footer">
             <div class="container footer-flex">
                 <ul class="footer-links">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li><a href="#">Terms</a></li>
                     <li><a href="#">Privacy</a></li>
                     <li><a href="./contact.html">Contact</a></li>
