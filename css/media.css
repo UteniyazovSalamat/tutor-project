@@ -145,6 +145,11 @@
     .footer-flex {
         flex-direction: column;
     }
+
+    .location h2,
+    p {
+        text-align: center;
+    }
 }
 
 @media (max-width: 576px) {
@@ -208,5 +213,9 @@
 
     .footer p {
         text-align: center;
+    }
+
+    .location h2 {
+        font-size: 1.6rem;
     }
 }
